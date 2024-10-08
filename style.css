@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url('bgimg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* header navbar */
+header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+header .logo {
+    padding: 10px;
+    font-size: 35px;
+    font-weight: 500;
+    color:orange;
+    background: transparent;
+    margin: 0px 50px;
+    margin-left: 60px;
+}
+header .logo i{
+    background: transparent;
+    margin-left: 5px;
+    font-size: 20px;
+    color:white;
+}
+
+header .links ul {
+    width: 650px;
+    margin-top: 10px;
+    display: flex;
+    font-weight: 500;
+    color:white;
+    background: transparent;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 30px;
+    align-items: center;
+}
+
+header .search {
+    display:flex;
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 10px;
+}
+header .search input{
+    height: 35px;
+    color:white;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+    outline:none;
+    background: transparent;
+    border: none;
+    border:2px solid rgba(255, 165, 0,0.6);
+    border-right:none;
+}
+header .search input::placeholder{
+    color:white;
+    font-size:15px;
+}
+header .search button{
+    padding: 10px 20px;
+    align-items: center;
+    font-size:15px;
+    display: flex;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    height: 35px;
+    background-color:orange;
+    color:white;
+
+}
+
+/* body-content */
+.body-content{
+    margin: 70px 50px;
+    padding: 20px;
+    color:white;
+    user-select:none;
+}
+.body-content .content .pre1{
+    font-size: 40px;
+    font-weight:500;
+}
+.body-content .content span{
+    color:orange;
+    font-size:50px;
+}
+.body-content .content .pre2{
+    font: size 20px;
+    font-weight:400;
+}
+.body-content .join-btn button{
+    padding: 5px 30px;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 20px;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* login-box */
+.login-box{
+    background-color: rgba(0, 0, 0,0.8);
+    position: absolute;
+    top:150px;
+    border-radius: 5px;
+    padding: 20px;
+    user-select:none;
+    right:150px;
+    width:280px;
+    height: 370px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+.login-box h1{
+    color:orange;
+    background-color: white;
+    text-align:center;
+    border-radius: 10px;
+    font-size: 25px;
+    height: 40px;
+}
+.login-box input{
+    height: 40px;
+    padding: 4px;
+    color:white;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: 2px solid rgba(255, 165, 0,0.6);;
+}
+.login-box input::placeholder{
+    color:white;
+    font-size: 15px;
+}
+.login-box button{
+    padding: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: orange;
+    border-radius: 8px;
+    margin-top:10px;
+    border: 1px solid black;
+}
+.login-box pre{
+text-align: center;
+color:white;
+}
+.login-box pre a{
+    color:orangered;
+    text-decoration:none;    
+}
+.login-box p{
+text-align: center;
+color:white;
+}
+.login-box .logos{
+color:white;
+display: flex;
+font-size: 20px;
+margin-top: 5px;
+align-items: center;
+justify-content: space-around;
+}
+
+
+
+
+
+
